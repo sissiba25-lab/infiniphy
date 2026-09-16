@@ -1,0 +1,30 @@
+body{
+   background-image:url(../photo_2026-08-15_22-56-48.jpg);
+   background-position:center;
+}
+h1{
+    font-family:'Tajawal', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-lefT:300PX;
+    margin-top:50PX;
+    font-size: 100PX;
+
+}
+img{
+    margin-left: 135PX;
+}
+@media (max-width: 480px)
+{
+  img{
+    width: 350px;
+    height: 500px;
+    margin-left:20PX;
+  }
+}
+@media (max-width: 480px) {
+  H1{
+    margin-left: 0px;
+    font-size:20PX;
+    margin-top: 0PX;
+}
+}
