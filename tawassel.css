@@ -1,0 +1,45 @@
+body{
+   background-image:url(photo_2026-08-15_22-56-48.jpg);
+    background-position:center;
+
+}
+h1{
+    font-family:'Tajawal', sans-serif;
+    color: rgb(255, 255, 255);
+
+    margin-lefT:300PX;
+    margin-top:50PX;
+    font-size: 150PX;
+
+}
+img{
+    border-radius: 50PX;
+    margin-left: 95PX;
+    margin-top: 50PX;
+    display: inline-block;
+    transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+}
+.social-container:hover img {
+    filter: blur(0px);
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+.social-container a:hover img {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1.1);
+}
+@media (max-width: 480px) {
+  img{
+    width: 150px;
+    height: 150px;
+    margin-left: 45PX;
+  }
+}
+@media (max-width: 480px) {
+  H1{
+    margin-left: 52px;
+    font-size:70PX;
+    display: inline-block;
+}
+}

@@ -1,0 +1,93 @@
+h1{
+    font-family:'Tajawal', sans-serif;
+    color: rgb(232, 235, 235);
+    padding: 10PX;
+    display: inline-block;
+    background-position:center;
+    margin-lefT:400PX;
+    margin-top:5PX;
+    font-size: 110PX;
+  
+
+}
+body{
+   background-image:url(photo_2026-08-15_22-56-48.jpg);
+    background-position:center;
+}
+#textanimation{
+    color: rgb(254, 254, 254);
+    font-size: 50PX;
+    margin-left: 300PX;
+    margin-top: 0PX;
+    background-color: rgb(3, 3, 60);
+    border-radius: 90px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30PX;
+}
+
+#ta3lm1{
+    margin:50px;
+    margin-left: 70PX;
+    border-style: solid;
+    border-color: rgb(252, 252, 252);
+    border-width:5PX;
+    border-radius: 20PX;
+    height: 200PX;
+    width: 200PX;
+    
+}
+#tamarin1{
+    margin: 50Px;
+    margin-left: 70PX;
+    border-style: solid;
+    border-color:rgb(252, 252, 252);
+    border-width:5PX;
+    border-radius: 20PX;
+    height: 200PX;
+    width: 200PX;
+}
+
+#tawassel1{
+    margin: 50Px;
+    margin-left: 70PX;
+    border-style: solid;
+    border-color: rgb(252, 252, 252);
+    border-width:5PX;
+    border-radius: 20PX;
+    height: 200PX;
+    width: 200PX;
+}
+.social-container a:hover img {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1.1);
+}
+.social-container:hover img {
+    filter: blur(0px);
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+@media (max-width: 480px) {
+  #ta3lm1, #ved1, #tamarin1, #tawassel1 {
+    width: 80px;
+    height: 80px;
+    margin-left: 55PX;
+   
+  }
+}
+@media (max-width: 480px) {
+  #textanimation{
+    margin-left: 60px;
+    font-size:23PX;
+  }
+}
+@media (max-width: 480px) {
+  H1{
+    margin-left: 80px;
+    font-size:55PX;
+    margin-top: 20PX;
+    
+
+  }
+}

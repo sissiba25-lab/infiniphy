@@ -1,0 +1,40 @@
+body{
+   background-image:url(photo_2026-08-15_22-56-48.jpg);
+    background-position:center;
+
+}
+H1{
+    font-size:150PX;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0PX;
+    margin-left: 150PX;
+}
+@media (max-width: 480px) {
+  H1{
+    margin-left: 130px;
+    font-size:70PX;
+    display: inline-block;
+    height:50PX;
+    height: 80PX;
+}
+@media (max-width: 480px){
+    img{
+        height: 150PX;
+        width: 150PX;
+    }
+}
+}
+img{
+    border-radius: 20PX;
+}
+.social-container:hover img {
+    filter: blur(0px);
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+.social-container a:hover img {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1.1);
+}
